@@ -19,13 +19,15 @@
   },
   "homepage": "https://github.com/Isnanadifatul/SBO-Backend#readme",
   "dependencies": {
+    "@hapi/cookie": "^12.0.1",
     "@hapi/hapi": "^21.3.10",
-    "handlebars": "^4.7.8",
-    "hapi-geo-locate": "^4.1.1",
     "@hapi/inert": "^7.1.0",
     "@hapi/vision": "^7.0.3",
-    "@hapi/cookie": "^12.0.1"
-
-
+    "bcrypt": "^5.1.1",
+    "handlebars": "^4.7.8",
+    "hapi-geo-locate": "^4.1.1",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3",
+    "@hapi/joi": "^17.1.1"
   }
 }
