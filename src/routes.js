@@ -2,6 +2,7 @@ const { path } = require('@hapi/joi/lib/errors');
 const {createHandler, readAllindikator_people, updateIndikatorHandler, deleteIndikatorHandler} = require('./handler_indikator_people');
 
 const routes = [
+    //Indikator People
     {
         method: 'POST',
         path: '/indikator_people_post',
@@ -22,6 +23,8 @@ const routes = [
         path: '/indikator_people_delete/{id}',
         handler: deleteIndikatorHandler
     }
+
+    //Indikator Perilaku
 ];
 
 module.exports = routes;

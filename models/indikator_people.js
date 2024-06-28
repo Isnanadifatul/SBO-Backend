@@ -43,14 +43,14 @@ const indikator_people = dbConnection.define('indikator_people', {
       });
   
       if (result[0] > 0) {
-        console.log(`Data pegawai dengan ID ${id} berhasil diupdate.`);
+        console.log(`Data dengan ID ${id} berhasil diupdate.`);
         return result;
       } else {
-        console.log(`Data pegawai dengan ID ${id} tidak ditemukan.`);
+        console.log(`Data dengan ID ${id} tidak ditemukan.`);
         return null;
       }
     } catch (error) {
-      console.error('Error mengupdate data pegawai:', error);
+      console.error('Error mengupdate data:', error);
       throw error;
     }
   }
@@ -62,14 +62,14 @@ const indikator_people = dbConnection.define('indikator_people', {
       });
   
       if (result > 0) {
-        console.log(`Data pegawai dengan ID ${id} berhasil dihapus.`);
+        console.log(`Indikator People dengan ID ${id} berhasil dihapus.`);
         return result;
       } else {
-        console.log(`Data pegawai dengan ID ${id} tidak ditemukan.`);
+        console.log(`Indikator People dengan ID ${id} tidak ditemukan.`);
         return null;
       }
     } catch (error) {
-      console.error('Error menghapus data pegawai:', error);
+      console.error('Error menghapus data:', error);
       throw error;
     }
   }
